@@ -1,0 +1,60 @@
+body {
+  background-color: #f4fdf4;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar-brand {
+  font-weight: bold;
+  color: #2f855a;
+}
+.card {
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  transform: translateX(50px);
+  opacity: 0;
+}
+.card.show {
+  transform: translateX(0);
+  opacity: 1;
+}
+.card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+.price {
+  color: #2f855a;
+  font-weight: bold;
+}
+.btn-buy {
+  background-color: #2f855a;
+  color: white;
+}
+.footer {
+  background-color: #e6f4ea;
+  padding: 20px;
+  text-align: center;
+  margin-top: 40px;
+}
+#cart {
+  background: #ffffff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-top: 40px;
+  border-radius: 10px;
+}
+#cart, #review-section, #tracker {
+  background: #ffffff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-top: 40px;
+  border-radius: 10px;
+}
+#receipt {
+  background: #f9fff9;
+  border: 1px dashed #2f855a;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.btn-pay {
+  background-color: #28a745;
+  color: white;
+}
